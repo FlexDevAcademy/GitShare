@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace GitShare
 {
-    internal class NewClass
+    public class NewClass
     {
+        public string Name { get; set; }
     }
 }
