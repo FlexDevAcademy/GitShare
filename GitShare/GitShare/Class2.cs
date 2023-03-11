@@ -11,9 +11,17 @@ namespace GitShare
         public int Age { get; set; }
         public int Cats { get; set; }
 
-        public void Say() 
-        { 
-            Console.WriteLine("Hello"); 
+
+        static void Main(string[] args)
+        {
+            int hoursOfSleep = 7;
+
+            bool isRested = hoursOfSleep >= 8;
+
+            if (!isRested)
+            {
+                Console.WriteLine("Czas na spanko!");
+            }
         }
     }
 }
