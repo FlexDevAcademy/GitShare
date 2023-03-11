@@ -14,6 +14,6 @@ namespace GitShare
 
         public string PhoneModel { get; set; }
 
-        public string Tariff { get; set; }
+        private string Tariff { get; set; }
     }
 }
