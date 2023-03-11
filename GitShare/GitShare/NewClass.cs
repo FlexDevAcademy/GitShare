@@ -9,5 +9,7 @@ namespace GitShare
     public class NewClass
     {
         public string Name { get; set; }
+
+        public int Adds { get; set; }
     }
 }
