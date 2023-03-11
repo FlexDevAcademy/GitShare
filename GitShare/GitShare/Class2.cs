@@ -11,9 +11,11 @@ namespace GitShare
         public int Age { get; set; }
         public int Cats { get; set; }
 
+        private string NewString { get; set; }
+
         public void Say()
         {
-            Console.WriteLine("Hello");
+            Console.WriteLine(NewString);
         }
 
 
