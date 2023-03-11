@@ -13,5 +13,7 @@ namespace GitShare
         public string PhoneNumber { get; set; }
 
         public string PhoneModel { get; set; }
+
+        public string Tariff { get; set; }
     }
 }
