@@ -8,7 +8,7 @@ namespace GitShare
 {
     internal class Class2
     {
-        public int Frogs { get; set; }
+        public string Dogs { get; set; }
         public int Cats { get; set; }
 
         private string NewString { get; set; }
