@@ -9,5 +9,6 @@ namespace GitShare
     internal class Cases
     {
         public string Clients { get; set; }
+        public int Number {get; set;}
     }
 }
