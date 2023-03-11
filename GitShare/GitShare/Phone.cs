@@ -8,8 +8,10 @@ namespace GitShare
 {
     public class Phone
     {
-        public string OwnerName { get; set; }
+        private string OwnerId { get; set; }
         public string OwnerSurname { get; set; }
         public string PhoneNumber { get; set; }
+        public string PhoneModel { get; set; }
+        private string Tariff { get; set; }
     }
 }
