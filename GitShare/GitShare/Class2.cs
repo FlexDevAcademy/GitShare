@@ -10,5 +10,10 @@ namespace GitShare
     {
         public int Age { get; set; }
         public int Cats { get; set; }
+
+        public void Say() 
+        { 
+            Console.WriteLine("Hello"); 
+        }
     }
 }
