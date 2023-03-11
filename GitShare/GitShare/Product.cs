@@ -8,10 +8,9 @@ namespace GitShare
 {
     public class Product
     {
-        private int Name { get; set; }
-        public decimal Price { get; set; }
-
+        private string Name { get; set; }
+        public double Price { get; set; }
         public string Description { get; set; }
-        public double Size { get; set; }
+        public int Size { get; set; }
     }
 }
