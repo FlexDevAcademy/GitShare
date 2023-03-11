@@ -9,5 +9,6 @@ namespace GitShare
     internal class Class2
     {
         public int Age { get; set; }
+        public int Cats { get; set; }
     }
 }
