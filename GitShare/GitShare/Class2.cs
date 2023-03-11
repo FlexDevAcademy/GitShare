@@ -11,6 +11,11 @@ namespace GitShare
         public int Age { get; set; }
         public int Cats { get; set; }
 
+        public void Say()
+        {
+            Console.WriteLine("Hello");
+        }
+
 
         static void Main(string[] args)
         {
@@ -22,6 +27,6 @@ namespace GitShare
             {
                 Console.WriteLine("Czas na spanko!");
             }
-        }
+         }
     }
 }
