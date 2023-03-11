@@ -8,7 +8,7 @@ namespace GitShare
 {
     internal class Note
     {
-        public int HeaderName { get; set; }
+        public string int HeaderName { get; set; }
         public string Title { get; set; }
     }
 }
