@@ -8,5 +8,6 @@ namespace GitShare
 {
     internal class Note
     {
+        public string color { get; set; }
     }
 }
