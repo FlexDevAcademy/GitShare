@@ -19,9 +19,9 @@ namespace GitShare
 
         static void Main(string[] args)
         {
-            int hoursOfSleep = 7;
+            int hoursOfSleep = 5;
 
-            bool isRested = hoursOfSleep >= 8;
+            bool isRested = hoursOfSleep >= 6;
 
             if (!isRested)
             {
