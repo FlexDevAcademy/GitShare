@@ -11,9 +11,7 @@ namespace GitShare
         public string OwnerId { get; set; }
         public string OwnerSurname { get; set; }
         public string PhoneNumber { get; set; }
-
         public string PhoneModel { get; set; }
-
         private string Tariff { get; set; }
     }
 }
