@@ -8,5 +8,7 @@ namespace GitShare
 {
     internal class Agnieszka
     {
+        public string FavouriteBook { get; set; }
+
     }
 }
